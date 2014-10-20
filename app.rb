@@ -28,7 +28,16 @@ set :views, "views"
 # 	end
 
 get '/' do
-    return 'Hello world'
+	erb :image
+    # return 'Hello world'
+end
+
+get '/test' do
+	erb :index
+end
+
+get '/collapse' do
+	erb :collapse
 end
 
 get '/hello/' do
