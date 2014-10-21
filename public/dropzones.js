@@ -22,7 +22,7 @@
 
     // setup drop areas.
     // dropzone #1 accepts draggable #1
-    setupDropzone('#drop1', '#drag1');
+    setupDropzone('#drop1', '#drag1', '#drag4');
     // dropzone #2 accepts draggable #1 and #2
     setupDropzone('#drop2', '#drag1, #drag2');
     // every dropzone accepts draggable #3
