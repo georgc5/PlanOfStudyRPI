@@ -44,3 +44,7 @@ get '/hello/' do
     greeting = params[:greeting] || "Hi There"
     erb :index, :locals => {'greeting' => greeting}
 end
+
+get '/DropZone' do
+	erb :dropzones
+end
