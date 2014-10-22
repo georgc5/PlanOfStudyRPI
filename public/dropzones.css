@@ -6,8 +6,8 @@ body { font-family: Helvetica, Arial, sans-serif; }
     top: 10;
     left: 10;
     right: 10;
-    bottom: 10;
-    width: 28%;
+    bottom: 0;
+    width: 40%;
 }
 
 .dropzone2-wrapper {
@@ -16,8 +16,8 @@ body { font-family: Helvetica, Arial, sans-serif; }
     top: 10;
     left: 10;
     right: 10;
-    bottom: 10;
-    width: 28%;
+    bottom: 0;
+    width: 40%;
 }
 
 .dropzone3-wrapper {
@@ -26,7 +26,7 @@ body { font-family: Helvetica, Arial, sans-serif; }
     top: 10;
     left: 10;
     right: 10;
-    width: 27%;
+    width: 80%;
 }
 
 .dropzone {
@@ -40,6 +40,22 @@ body { font-family: Helvetica, Arial, sans-serif; }
     border: 4px dashed transparent;
     transition: background .15s linear, border-color .15s linear;
     height: 200px;
+    
+    /*width: 100px*/;
+}
+
+.dropzone1 {
+    overflow: hidden;
+    margin: .5em;
+    padding: 1em;
+    color: #666;
+    text-align: center;
+    background: #ccc;
+    line-height: 4em;
+    border: 4px dashed transparent;
+    transition: background .15s linear, border-color .15s linear;
+    height: 80px;
+    
     /*width: 100px*/;
 }
 
