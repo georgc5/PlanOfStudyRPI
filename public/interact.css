@@ -1,0 +1,38 @@
+#outer-dropzone {
+    height: 140px;
+}
+
+#inner-dropzone {
+    height: 80px;
+}
+
+.dropzone {
+    background-color: #ccc;
+    border: dashed 4px transparent;
+    border-radius: 4px;
+    margin: 10px auto 30px;
+    padding: 10px;
+    width: 80%;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-active {
+    border-color: #666;
+}
+
+.drop-target {
+    background-color: #29e;
+}
+
+.drag-drop {
+    display: inline-block;
+    min-width: 40px;
+    padding: 2em 0.5em;
+
+    background-color: #99e;
+    border: solid 2px white;
+
+    transition: background-color 0.3s;
+}
+
+.drag-drop.can-drop { background-color: #4e4; }

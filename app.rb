@@ -40,6 +40,10 @@ get '/collapse' do
 	erb :collapse
 end
 
+get '/drag' do
+	erb :drag
+end
+
 get '/hello/' do
     greeting = params[:greeting] || "Hi There"
     erb :index, :locals => {'greeting' => greeting}

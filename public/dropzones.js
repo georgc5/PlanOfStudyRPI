@@ -48,25 +48,25 @@
             .on('dropactivate', function (event) {
                 console.log('activate', event);
                 event.target.classList.add('-drop-possible');
-                event.target.textContent = 'Drop me here!';
+                //event.target.textContent = 'Drop me here!';
 
             })
             .on('dropdeactivate', function (event) {
                 console.log('deactivate', event);
                 event.target.classList.remove('-drop-possible');
-                event.target.textContent = 'Dropzone';
+                //event.target.textContent = 'Dropzone';
             })
             .on('dragenter', function (event) {
                 event.target.classList.add('-drop-over');
-                event.relatedTarget.textContent = 'I\'m in';
+                //event.relatedTarget.textContent = 'I\'m in';
             })
             .on('dragleave', function (event) {
                 event.target.classList.remove('-drop-over');
-                event.relatedTarget.textContent = 'Drag me…';
+                //event.relatedTarget.textContent = 'Drag me…';
             })
             .on('drop', function (event) {
                 event.target.classList.remove('-drop-over');
-                event.relatedTarget.textContent = 'Dropped';
+                //event.relatedTarget.textContent = 'Dropped';
             });
     }
 
