@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Dropzone</title>
+        <meta name="viewport" content="device-width">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
+        <link rel="stylesheet" href="css/topcoat-desktop-light.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/dr.css">
+        <link rel="stylesheet" href="css/prism.css">
+	    <script src="/interact.js"></script>
+	    <script src="/dropzones.js"></script>
+	    <link rel="stylesheet" href="/dropzones.css">
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>    
+
+  <body>
+  <div id="sideNav">
+    <div class="combo">
+        <input type="search" id="dr-filter" value="" placeholder="search" class="topcoat-search-input">
+    </div>
+    <div id="pageNav">
+        <ol id="dr-toc">
+            
+            <li class="dr-lvl0">
+                <a href="#Interactable" class="dr-property"><span>Interactable</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.accept" class="dr-method"><span>Interactable.accept()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.actionChecker" class="dr-method"><span>Interactable.actionChecker()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.allowFrom" class="dr-method"><span>Interactable.allowFrom()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.autoScroll" class="dr-method"><span>Interactable.autoScroll()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.context" class="dr-method"><span>Interactable.context()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.deltaSource" class="dr-method"><span>Interactable.deltaSource()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.draggable" class="dr-method"><span>Interactable.draggable()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.dropCheck" class="dr-method"><span>Interactable.dropCheck()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.dropChecker" class="dr-method"><span>Interactable.dropChecker()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.dropzone" class="dr-method"><span>Interactable.dropzone()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.element" class="dr-method"><span>Interactable.element()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.fire" class="dr-method"><span>Interactable.fire()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.gesturable" class="dr-method"><span>Interactable.gesturable()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.getRect" class="dr-method"><span>Interactable.getRect()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.ignoreFrom" class="dr-method"><span>Interactable.ignoreFrom()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.inertia" class="dr-method"><span>Interactable.inertia()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.off" class="dr-method"><span>Interactable.off()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.on" class="dr-method"><span>Interactable.on()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.origin" class="dr-method"><span>Interactable.origin()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.preventDefault" class="dr-method"><span>Interactable.preventDefault()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.rectChecker" class="dr-method"><span>Interactable.rectChecker()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.resizable" class="dr-method"><span>Interactable.resizable()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.restrict" class="dr-method"><span>Interactable.restrict()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.set" class="dr-method"><span>Interactable.set()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.snap" class="dr-method"><span>Interactable.snap()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.squareResize" class="dr-method"><span>Interactable.squareResize()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.styleCursor" class="dr-method"><span>Interactable.styleCursor()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.unset" class="dr-method"><span>Interactable.unset()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#Interactable.validateSetting" class="dr-method"><span>Interactable.validateSetting()</span></a>
+            </li>
+            
+            <li class="dr-lvl0">
+                <a href="#interact" class="dr-method"><span>interact()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.autoScroll" class="dr-method"><span>interact.autoScroll()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.currentAction" class="dr-method"><span>interact.currentAction()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.debug" class="dr-method"><span>interact.debug()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.deltaSource" class="dr-method"><span>interact.deltaSource()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.dynamicDrop" class="dr-method"><span>interact.dynamicDrop()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.enableDragging" class="dr-method"><span>interact.enableDragging()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.enableGesturing" class="dr-method"><span>interact.enableGesturing()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.enableResizing" class="dr-method"><span>interact.enableResizing()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.inertia" class="dr-method"><span>interact.inertia()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.isSet" class="dr-method"><span>interact.isSet()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.margin" class="dr-method"><span>interact.margin()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.off" class="dr-method"><span>interact.off()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.on" class="dr-method"><span>interact.on()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.pointerMoveTolerance" class="dr-method"><span>interact.pointerMoveTolerance()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.restrict" class="dr-method"><span>interact.restrict()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.simulate" class="dr-method"><span>interact.simulate()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.snap" class="dr-method"><span>interact.snap()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.stop" class="dr-method"><span>interact.stop()</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.styleCursor" class="dr-styleCursor"><span>interact.styleCursor</span></a>
+            </li>
+            
+            <li class="dr-lvl1">
+                <a href="#interact.supportsTouch" class="dr-method"><span>interact.supportsTouch()</span></a>
+            </li>
+            
+        </ol>
+    </div>
+  	</div>
+    <div id="drag3" class="draggable js-drag">Data Strcutures</div>
+	<div id="drag1" class="draggable js-drag">Engineering Probability</div>
+	<div id="drag2" class="draggable js-drag">CANOS</div>
+	<div id="drag4" class="draggable js-drag">Digital Signal Processing</div>
+
+	<div class="dropzone2-wrapper">
+		<div id="drop2" class="dropzone js-drop"> Semester 2 (Spring)</div>
+	</div>
+
+	<div class="dropzone1-wrapper">
+	    <div id="drop1" class="dropzone js-drop">Semester 1 (Fall)</div>
+	</div>
+
+	<div class="dropzone3-wrapper">
+	    <div id="drop3" class="dropzone1 js-drop">Semester 2.5 (Summer)</div>
+	</div>
+
+	<div class="dropzone2-wrapper">
+	    <div id="drop2" class="dropzone js-drop">Semester 4 (Spring)</div>
+	</div>
+
+	<div class="dropzone1-wrapper">
+	    <div id="drop1" class="dropzone js-drop">Semester 3 (Fall)</div>
+	</div>
+	</body>
+</html>

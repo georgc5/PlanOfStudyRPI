@@ -22,11 +22,11 @@
 
     // setup drop areas.
     // dropzone #1 accepts draggable #1
-    setupDropzone('#drop1', '#drag1, #drag4');
+    setupDropzone('#drop1', '#drag1, #drag4, #drag3');
     // dropzone #2 accepts draggable #1 and #2
-    setupDropzone('#drop2', '#drag1, #drag2');
-    // every dropzone accepts draggable #3
-    setupDropzone('.js-drop', '#drag3');
+    setupDropzone('#drop2', '#drag1, #drag2, #drag3');
+    // dropzone #3 accepts draggable #3
+    setupDropzone('#drop3', '#drag3');
 
     /**
      * Setup a given element as a dropzone.
@@ -45,6 +45,7 @@
                     event.relatedTarget.classList.remove('-drop-possible');
                 }
             })
+
             .on('dropactivate', function (event) {
                 console.log('activate', event);
                 event.target.classList.add('-drop-possible');
@@ -69,5 +70,7 @@
                 //event.relatedTarget.textContent = 'Dropped';
             });
     }
+
+
 
 }(window.interact));

@@ -11,7 +11,51 @@
         <script src="/dropzones.js"></script>
         <link rel="stylesheet" href="/dropzones.css">
     </head>
-      <body class="light">
+<body class="light">
+
+<div class="dropzone2-wrapper">
+  <div id="drop2" class="dropzone js-drop"> Semester 2 (Spring)</div>
+</div>
+
+<div class="dropzone1-wrapper">
+    <div id="drop1" class="dropzone js-drop">Semester 1 (Fall)</div>
+</div>
+
+<!-- <div class="dropzone3-wrapper">
+    <div id="drop3" class="dropzone1 js-drop">Semester 2.5 (Summer)</div>
+</div> -->
+
+<div class="dropzone2-wrapper">
+    <div id="drop2" class="dropzone js-drop">Semester 4 (Spring)</div>
+</div>
+
+<div class="dropzone1-wrapper">
+    <div id="drop1" class="dropzone js-drop">Semester 3 (Fall)</div>
+</div>
+
+<!-- <div class="dropzone3-wrapper">
+    <div id="drop3" class="dropzone1 js-drop">Semester 4.5 (Summer)</div>
+</div>
+ -->
+<div class="dropzone2-wrapper">
+  <div id="drop2" class="dropzone js-drop"> Semester 6 (Spring)</div>
+</div>
+
+<div class="dropzone1-wrapper">
+    <div id="drop1" class="dropzone js-drop">Semester 7 (Fall)</div>
+</div>
+
+<!-- <div class="dropzone3-wrapper">
+    <div id="drop3" class="dropzone1 js-drop">Semester 7.5 (Summer)</div>
+</div> -->
+
+<div class="dropzone2-wrapper">
+    <div id="drop2" class="dropzone js-drop">Semester 8 (Spring)</div>
+</div>
+
+<div class="dropzone1-wrapper">
+    <div id="drop1" class="dropzone js-drop">Semester 7 (Fall)</div>
+</div>
           <div id="wrapper">
               <div class="max-width">
                   <div id="sideNav">
@@ -19,27 +63,54 @@
                           <input type="search" id="dr-filter" value="" placeholder="search" class="topcoat-search-input">
                       </div>
                       <div id="pageNav">
-                          <ol id="dr-toc">
-                              
+                          <div style="list-style-type:none"  class="ul" id="dr-toc">   
+                              <li class="dr-lvl0">
+                                <div id="drag2" class="draggable js-drag"><span>CANOS</span></div>
+                              </li>
+
+                              <li class="dr-lvl0">
+                                <div id="drag3" class="draggable js-drag"><span>Computer Science 1</span></div>
+                              </li>                       
                              
                               <li class="dr-lvl0">
                                 <div id="drag3" class="draggable js-drag"><span>Data Structures</span></div>
                               </li>
-                              
-                              <li class="dr-lvl0">
-                                <div id="drag1" class="draggable js-drag"><span>Engineering Probability</span></div>
-                              </li>
-                              
-                              <li class="dr-lvl0">
-                                <div id="drag2" class="draggable js-drag"><span>CANOS</span></div>
-                              </li>
-                              
+
                               <li class="dr-lvl0">
                                 <div id="drag4" class="draggable js-drag"><span>Digital Signal Processing</span></div>
                               </li>
+                              <li class="dr-lvl0">
+                                <div id="drag3" class="draggable js-drag"><span>Electric Circuits</span></div>
+                              </li>
+                              <li class="dr-lvl0">
+                                <div id="drag1" class="draggable js-drag"><span>Engineering Probability</span></div>
+                              </li>
+
+                              <li class="dr-lvl0">
+                                <div id="drag1" class="draggable js-drag"><span>Foundations of Computer Science</span></div>
+                              </li>
                               
+                              <li class="dr-lvl0">
+                                <div id="drag1" class="draggable js-drag"><span>Introduction to Algorithms</span></div>
+                              </li>
+
+
+                              <li class="dr-lvl0">
+                                <div id="drag1" class="draggable js-drag"><span>Operating Systems</span></div>
+                              </li>
                               
-                          </ol>
+                               <li class="dr-lvl0">
+                                <div id="drag1" class="draggable js-drag"><span>Programming Languages</span></div>
+                              </li>
+                              
+                              <li class="dr-lvl0">
+                                <div id="drag3" class="draggable js-drag"><span>Signals and Systems</span></div>
+                              </li>   
+
+                              <li class="dr-lvl0">
+                                <div id="drag1" class="draggable js-drag"><span>Software Design and Documentation</span></div>
+                              </li>                           
+                          </div>
                       </div>
                   </div>
               </div>
@@ -62,4 +133,5 @@ h.onclick=h.onchange=h.onkeydown=h.onkeyup=function(){var t=h.value,r=[]
 if(t.length>1){for(var i=0,o=a.length;o>i;i++)r[i]={li:a[i].li,weight:n(a[i].text,t)}
 r.sort(f)}else r=a
 for(i=0,o=r.length;o>i;i++)e.appendChild(r[i].li)}}}(document.getElementById("dr-toc"))</script>
+
 </body></html>
