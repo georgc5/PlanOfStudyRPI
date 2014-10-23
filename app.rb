@@ -52,3 +52,7 @@ end
 get '/DropZone' do
 	erb :dropzones
 end
+
+get '/Scroll' do
+	erb :scroll
+end
