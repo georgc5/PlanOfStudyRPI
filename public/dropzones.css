@@ -1,5 +1,18 @@
 body { font-family: Helvetica, Arial, sans-serif; }
 
+#drag1{
+    float: left;
+}
+#drag2{
+    float: left;
+}
+#drag3{
+    float: left;
+}
+#drag4{
+    float: left;
+}
+
 .dropzone1-wrapper {
     position: relative;
     float: right;
@@ -42,7 +55,7 @@ body { font-family: Helvetica, Arial, sans-serif; }
     transition: background .15s linear, border-color .15s linear;
     height: 200px;
     
-    /*width: 100px*/;
+    /*width: 100px;*/
 }
 
 .dropzone1 {
@@ -73,7 +86,7 @@ body { font-family: Helvetica, Arial, sans-serif; }
     width: 12%;
     margin: .25em;
     padding: 1em 2em;
-    background-color: #29e;
+    background-color: #041E41;
     color: #fff;
     text-align: center;
 
