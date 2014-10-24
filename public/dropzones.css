@@ -1,18 +1,5 @@
 body { font-family: Helvetica, Arial, sans-serif; }
-
-#drag1{
-    float: left;
-}
-#drag2{
-    float: left;
-}
-#drag3{
-    float: left;
-}
-#drag4{
-    float: left;
-}
-
+ 
 .dropzone1-wrapper {
     position: relative;
     float: right;
@@ -22,7 +9,7 @@ body { font-family: Helvetica, Arial, sans-serif; }
     bottom: 0;
     width: 40%;
 }
-
+ 
 .dropzone2-wrapper {
     position: relative;
     float: right;
@@ -32,7 +19,7 @@ body { font-family: Helvetica, Arial, sans-serif; }
     bottom: 0;
     width: 40%;
 }
-
+ 
 .dropzone3-wrapper {
     position: relative;
     float: right;
@@ -42,56 +29,56 @@ body { font-family: Helvetica, Arial, sans-serif; }
     bottom: 0;
     width: 80%;
 }
-
+ 
 .dropzone {
     overflow: hidden;
     margin: .5em;
     padding: 1em;
     color: #666;
     text-align: center;
-    background: #ccc;
+    background: #F3F3F3;
     line-height: 4em;
     border: 4px dashed transparent;
     transition: background .15s linear, border-color .15s linear;
     height: 200px;
-    
-    /*width: 100px;*/
+     
+    /*width: 100px*/;
 }
-
+ 
 .dropzone1 {
     overflow: hidden;
     margin: .5em;
     padding: 1em;
     color: #666;
     text-align: center;
-    background: #ccc;
+    background: #F3F3F3;
     line-height: 4em;
     border: 4px dashed transparent;
     transition: background .15s linear, border-color .15s linear;
     height: 100px;
-    
+     
     /*width: 100px*/;
 }
-
+ 
 .dropzone.-drop-possible { border-color: #666; }
-
+ 
 .dropzone.-drop-over {
     background: #666;
     color: #fff;
 }
-
+ 
 .draggable {
     position: relative;
     z-index: 10;
     width: 12%;
     margin: .25em;
     padding: 1em 2em;
-    background-color: #041E41;
+    background-color: #29e;
     color: #fff;
     text-align: center;
-
+ 
     -ms-touch-action: none;
         touch-action: none;
 }
-
+ 
 .draggable.-drop-possible { background-color: #42bd41; }
