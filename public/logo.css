@@ -1,0 +1,10 @@
+.bg-image {
+    position: relative;
+}
+.bg-image img {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* corresponds to max height of 450px */
+    max-height: 400px;
+    margin: 0 auto;
+}
